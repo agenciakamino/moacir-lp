@@ -9,21 +9,17 @@ tailwind.config = {
       colors: {
         brand: {
           black: '#030303', // Preto Absoluto
-          dark: '#0A0A0A', // Cinza Carvão
-          gray: '#121212', // Base dos Cards
-          accent: '#FF4D00', // Laranja Internacional
-          gold: '#D4AF37',
+          dark: '#0A1F44', // Azul Escuro (Primary)
+          gray: '#0A1F44', // Azul Escuro (Cards)
+          accent: '#A4AD66', // Verde Oliva (Accent)
+          primary: '#0A1F44', // Azul Escuro
           muted: '#9CA3AF',
-        },
-        gold: {
-          400: '#EAB308',
-          500: '#D97706',
         },
       },
       fontFamily: {
-        sans: ['Manrope', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
-        heading: ['Playfair Display', 'serif'],
+        sans: ['Outfit', 'sans-serif'],
+        serif: ['Poppins', 'sans-serif'],
+        heading: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
         noise:
