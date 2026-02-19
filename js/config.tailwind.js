@@ -8,12 +8,12 @@ tailwind.config = {
     extend: {
       colors: {
         brand: {
-          black: '#030303', // Preto Absoluto
-          dark: '#0A1F44', // Azul Escuro (Primary)
-          gray: '#0A1F44', // Azul Escuro (Cards)
-          accent: '#A4AD66', // Verde Oliva (Accent)
-          primary: '#0A1F44', // Azul Escuro
-          muted: '#9CA3AF',
+          black: '#121212', // Grafite Profundo (Fundo Principal)
+          dark: '#1F1F1F',  // Cinza Escuro (Seções/Cards)
+          gray: '#2A2A2A',  // Cinza de Contorno
+          accent: '#A4AD66', // Verde Oliva Vibrante (Energia)
+          primary: '#F3F4F6', // Off-White para textos principais
+          muted: '#9CA3AF',   // Cinza para textos secundários
         },
       },
       fontFamily: {
