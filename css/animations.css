@@ -1,50 +1,13 @@
-/**
- * Animations - Moacir LP
- * Keyframes e classes de animação
- */
-
 /* ==========================================
    Marquee Animation (Ticker)
    ========================================== */
 @keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-33.33%);
-  }
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.3333%); }
 }
 
-/* Base: Mobile pequeno - MUITO rápido */
 .animate-marquee {
-  animation: marquee 6s linear infinite;
-}
-
-/* Tablet pequeno */
-@media (min-width: 480px) {
-  .animate-marquee {
-    animation: marquee 10s linear infinite;
-  }
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-  .animate-marquee {
-    animation: marquee 15s linear infinite;
-  }
-}
-
-/* Desktop */
-@media (min-width: 1024px) {
-  .animate-marquee {
-    animation: marquee 20s linear infinite;
-  }
-}
-
-/* Desktop grande */
-@media (min-width: 1440px) {
-  .animate-marquee {
-    animation: marquee 25s linear infinite;
-  }
+  /* Fallback de 12s caso o JS ainda não tenha rodado */
+  animation: marquee 12s linear infinite !important;
+  will-change: transform;
 }
